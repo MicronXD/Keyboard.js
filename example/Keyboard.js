@@ -1,0 +1,1 @@
+window.Keyboard = require('../');

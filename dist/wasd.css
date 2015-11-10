@@ -1,0 +1,65 @@
+html {
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+keygroup {
+  display: block;
+  height: 26rem;
+  width: 37rem;
+  background: #ccc;
+}
+keygroup key {
+  background: #444;
+  color: #ccc;
+  display: block;
+  height: 10rem;
+  width: 10rem;
+  border: 0.3rem solid #000;
+  border-radius: 1.75rem;
+  line-height: 10rem;
+  text-align: center;
+  font-size: 3.6rem;
+  box-shadow:
+    0 1rem 1rem rgba(0, 0, 0, 0.3),
+    0 1rem 4rem rgba(0, 0, 0, 0.3) inset,
+    0 0.3rem 1rem rgba(255, 255, 255, 0.7) inset,
+    0 -0.3rem 1rem rgba(0, 0, 0, 0.4) inset;
+}
+keygroup key.down {
+  box-shadow:
+    0 0.3rem 0.3rem rgba(255, 255, 255, 0.3),
+    0 1rem 4rem rgba(0, 0, 0, 0.3) inset,
+    0 0.6rem 0.3rem rgba(255, 255, 255, 0.4) inset,
+    0 0.4rem 0.3rem black inset,
+    0 -0.3rem 1rem rgba(0, 0, 0, 0.4) inset;
+  color: #fff;
+  text-shadow: 0 0 0.3rem #ccc;
+}
+
+keygroup {
+  position: relative;
+}
+keygroup key {
+  position: absolute;
+}
+keygroup key#W {
+  top: 2.5rem;
+  left: 11.7rem;
+}
+keygroup key#A, keygroup key#S, keygroup key#D {
+  top: 13.5rem;
+}
+keygroup key#A {
+  left: 2.5rem;
+}
+keygroup key#S {
+  left: 13.5rem;
+}
+keygroup key#D {
+  left: 24.5rem;
+}
